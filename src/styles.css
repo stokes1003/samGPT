@@ -1,0 +1,113 @@
+* {
+  color: #fff;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #343541;
+  display: flex;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: 600;
+  padding: 200px 0;
+}
+
+.side-bar {
+  background-color: #202123;
+  width: 244px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%; /* Ensures .main takes the full width */
+  padding: 20px; /* Optional: Adds some padding for better spacing */
+  box-sizing: border-box; /* Ensures padding is included in the width and height calculations */
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  padding: 10px;
+}
+
+input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0, 0.05) 0 54px 55px,
+    rgba(0, 0, 0, 0, 0.05) 0 -12px 30px, rgba(0, 0, 0, 0, 0.05) 0 4px 6px,
+    rgba(0, 0, 0, 0, 0.05) 0 12px 13px, rgba(0, 0, 0, 0, 0.09) 0 -3px 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.nav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container #submit {
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+  cursor: pointer;
+}
+
+.chat-history {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.history p {
+  cursor: pointer;
+}
